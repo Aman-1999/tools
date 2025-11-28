@@ -1,0 +1,15 @@
+rank-tracker-prototype/
+├── main.py                 # Main FastAPI application
+├── config.py              # Configuration settings
+├── models.py              # Data models
+├── requirements.txt       # Dependencies
+├── .env                   # Environment variables
+├── README.md             # This file
+├── test_api.py           # Test suite
+├── start.sh              # Linux/Mac startup script
+├── start.bat             # Windows startup script
+├── services/
+│   ├── __init__.py       # Services package
+│   ├── dataforseo_client.py  # DataForSEO API client
+│   └── geocoding_client.py   # Geocoding client
+└── logs/                 # Auto-created log files
